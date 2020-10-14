@@ -1,0 +1,8 @@
+<div class="card form-center center-block">
+  <h1 class="title text-center">Novo tarefa</h1>
+
+  <%= render partial: 'form', locals: {texto_da_acao: "Salvar"}%>
+
+  <%= link_to 'Voltar', board_path(@task.board_id), class:"btn btn-success btn-block" %>
+  <br/>
+</div>

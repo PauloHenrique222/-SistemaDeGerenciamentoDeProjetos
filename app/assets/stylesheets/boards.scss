@@ -1,0 +1,23 @@
+// Place all the styles related to the Boards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.board .card{
+  margin: 10px;
+  height: 30vh;
+  min-width: 50px;
+  padding: 10px;
+}
+
+.destroy{
+  float: right;
+  color: red;
+  font-size: 15px;
+}
+.destroy:hover{
+  color: #e50101;
+}
+.show{
+  padding: 60px 0 65px;
+  text-align: center;
+  font-size: 2rem;
+}

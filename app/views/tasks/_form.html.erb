@@ -1,0 +1,25 @@
+<%= form_for @task do |form| %>
+  <% if @task.errors.any? %>
+    <div id="error_explanation">
+      <ul>
+      <% @task.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label "Descrição" %>
+    <%= form.text_area :description, class:"form-control", rows:6 %>
+  </div>
+
+  <div >
+    <%= form.hidden_field :board_id%>
+  </div>
+
+  <div>
+    <%= form.submit texto_da_acao, class:"btn btn-primary btn-block" %>
+  </div>
+  <br/>
+<% end %>
