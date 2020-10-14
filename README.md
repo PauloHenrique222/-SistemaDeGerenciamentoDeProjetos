@@ -1,4 +1,4 @@
-Sitema desenvolvido dutante os estudos de ruby e ruby on rails.
+Sistema desenvolvido dutante os estudos de ruby e ruby on rails.
 
 Objetivos: 
 Desenvolver um sistema onde o usuário após fazer o cadastro possa criar e gerenciar os seus projetos. 
